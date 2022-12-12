@@ -492,12 +492,26 @@ main{
      .img_box2 img{
       width: 100%;
      }
-    }
+     }
 
     @media (max-width: 767px){
       .mainTit > strong{
         font-size: 2.3rem;
       }
-    }
+
+
+
+
+
+      .txt_box3 > h3 {
+        font-size: 2.4rem;
+      }
+
+      .txt_box3 > p{
+        font-size: 1.3rem;
+      }
+      
+
+      }
   
     
