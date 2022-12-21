@@ -83,6 +83,9 @@ strong{
 
 
 /* header */
+.active{
+  background-color: red;
+}
 
 
 .header{
@@ -132,6 +135,19 @@ strong{
 .headerTop_left > a:hover{
   background-color: rgba(13,13,180,.3);
 }
+
+.headerTop_right > a:hover:nth-child(1){
+  background-color: rgba(181,22,27,.4);
+}
+
+.headerTop_right > a:hover:nth-child(2){
+  background-color: rgba(42,186,32,.4);
+}
+
+.headerTop_right > a:hover:nth-child(3){
+  background-color: rgba(142,43,228,.4);
+}
+
 
 .headerTop_right > a{  
   display: inline-block;
